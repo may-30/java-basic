@@ -19,5 +19,19 @@ public class _03_Variables {
 
         boolean pass = false;
         System.out.println("이번 시험에 합격했을까요? " + pass);
+
+        // 보다 정교한 소수점 계산이 필요하다면 double 자료형 사용
+        double d = 3.14123456789;
+        // float 자료형의 경우 뒤에 F, f 기입
+        float f = 3.14123456789F;
+
+        System.out.println(d);
+        System.out.println(f);
+
+        // 21억보다 큰 수의 경우 long 자료형 사용
+        long l = 1000000000000L;
+        // 3자리씩 끊어서 _ 로 구분 가능
+        l = 1_000_000_000_000L;
+        System.out.println(l);
     }
 }
