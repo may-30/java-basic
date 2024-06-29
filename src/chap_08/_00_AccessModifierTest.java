@@ -1,6 +1,7 @@
 package chap_08;
 
-import chap_07.BlackBoxRefurbish;
+// import chap_07.BlackBoxRefurbish;
+import chap_07.*;
 
 public class _00_AccessModifierTest {
     public static void main(String[] args) {
