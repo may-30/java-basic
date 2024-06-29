@@ -53,4 +53,8 @@ public class BlackBox {
         // modelName = "test"; // 변경되지 않음
         // canAutoReport = false; // 변경됨
     }
+
+    void appendModelName(String modelName) {
+        this.modelName += modelName;
+    }
 }
