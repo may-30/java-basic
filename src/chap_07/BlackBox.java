@@ -47,4 +47,10 @@ public class BlackBox {
     void record() {
         record(true, true, 5);
     }
+
+    static void callServiceCenter() {
+        System.out.println("서비스 센터(1588-000) 로 연결합니다.");
+        // modelName = "test"; // 변경되지 않음
+        // canAutoReport = false; // 변경됨
+    }
 }
